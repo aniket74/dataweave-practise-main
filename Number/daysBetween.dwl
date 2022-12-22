@@ -1,3 +1,5 @@
+//Count using daysBetween function to print number of days between two different dates given
+
 %dw 2.0
 output application/json
 ---

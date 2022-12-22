@@ -1,3 +1,6 @@
+/*
+Then demo with few examples
+*/
 %dw 2.0
 output application/json
 ---

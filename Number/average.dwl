@@ -1,3 +1,5 @@
+//Examples using avg function
+
 %dw 2.0
 output application/json
 ---
