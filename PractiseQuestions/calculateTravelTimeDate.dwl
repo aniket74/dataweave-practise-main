@@ -46,7 +46,8 @@ item mapObject ((value, key, index) ->
         "arrivalDate": getDateTime(item.leavingDate ++ item.startTime , item.travelHours) as DateTime{format:"dd-MM-yyyy"},
          "arrivalTime": getDateTime(item.leavingDate ++ item.startTime , item.travelHours) as Time{format:"HHmm"}
     }
-    else (key): value
+    else if((key~="leavingDate")) "startDate": value
+    else (key):value
  )
 )
 /*
